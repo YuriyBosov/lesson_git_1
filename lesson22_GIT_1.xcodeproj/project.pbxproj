@@ -17,6 +17,7 @@
 		E704553A2465BBA200A4E20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70455382465BBA200A4E20F /* LaunchScreen.storyboard */; };
 		E7E13F972465C8590029A299 /* NewsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E13F962465C8590029A299 /* NewsListController.swift */; };
 		E7E13F992465D1090029A299 /* NewsDetailedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E13F982465D1090029A299 /* NewsDetailedController.swift */; };
+		E7E13F9B2465D2560029A299 /* ViewController123.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E13F9A2465D2560029A299 /* ViewController123.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E704553B2465BBA200A4E20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7E13F962465C8590029A299 /* NewsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListController.swift; sourceTree = "<group>"; };
 		E7E13F982465D1090029A299 /* NewsDetailedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailedController.swift; sourceTree = "<group>"; };
+		E7E13F9A2465D2560029A299 /* ViewController123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController123.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E7E13F962465C8590029A299 /* NewsListController.swift */,
 				E7E13F982465D1090029A299 /* NewsDetailedController.swift */,
 				30A199EB2465D260000F6572 /* FirstLevelController.swift */,
+				E7E13F9A2465D2560029A299 /* ViewController123.swift */,
 				E70455332465BBA000A4E20F /* Main.storyboard */,
 				E70455362465BBA200A4E20F /* Assets.xcassets */,
 				E70455382465BBA200A4E20F /* LaunchScreen.storyboard */,
@@ -173,6 +176,7 @@
 				E70455322465BBA000A4E20F /* ViewController.swift in Sources */,
 				30A199EA2465D12C000F6572 /* Controller2.swift in Sources */,
 				E704552E2465BBA000A4E20F /* AppDelegate.swift in Sources */,
+				E7E13F9B2465D2560029A299 /* ViewController123.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
