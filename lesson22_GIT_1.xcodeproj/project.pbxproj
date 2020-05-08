@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30A199E62465C7D4000F6572 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A199E52465C7D4000F6572 /* TestController.swift */; };
+		30A199EA2465D12C000F6572 /* Controller2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A199E92465D12C000F6572 /* Controller2.swift */; };
 		E704552E2465BBA000A4E20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E704552D2465BBA000A4E20F /* AppDelegate.swift */; };
 		E70455322465BBA000A4E20F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70455312465BBA000A4E20F /* ViewController.swift */; };
 		E70455352465BBA000A4E20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70455332465BBA000A4E20F /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		30A199E52465C7D4000F6572 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		30A199E92465D12C000F6572 /* Controller2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller2.swift; sourceTree = "<group>"; };
 		E704552A2465BBA000A4E20F /* lesson22_GIT_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesson22_GIT_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E704552D2465BBA000A4E20F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E70455312465BBA000A4E20F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A199E72465D109000F6572 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				30A199E82465D113000F6572 /* Controller2 */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		30A199E82465D113000F6572 /* Controller2 */ = {
+			isa = PBXGroup;
+			children = (
+				30A199E92465D12C000F6572 /* Controller2.swift */,
+			);
+			path = Controller2;
+			sourceTree = "<group>";
+		};
 		E70455212465BB9F00A4E20F = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +76,7 @@
 		E704552C2465BBA000A4E20F /* lesson22_GIT_1 */ = {
 			isa = PBXGroup;
 			children = (
+				30A199E72465D109000F6572 /* UI */,
 				E704552D2465BBA000A4E20F /* AppDelegate.swift */,
 				E70455312465BBA000A4E20F /* ViewController.swift */,
 				E7E13F962465C8590029A299 /* NewsListController.swift */,
@@ -144,6 +163,7 @@
 				E7E13F972465C8590029A299 /* NewsListController.swift in Sources */,
 				30A199E62465C7D4000F6572 /* TestController.swift in Sources */,
 				E70455322465BBA000A4E20F /* ViewController.swift in Sources */,
+				30A199EA2465D12C000F6572 /* Controller2.swift in Sources */,
 				E704552E2465BBA000A4E20F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
